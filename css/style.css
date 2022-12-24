@@ -127,6 +127,9 @@ body {
         width: 100%;
         padding: 0;
     }
+    .calculator__btn {
+        text-align: center;
+    }  
 }
 @media screen and (max-width: 410px) {
     .calculator__bottom {
