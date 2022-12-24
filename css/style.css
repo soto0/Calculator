@@ -129,6 +129,7 @@ body {
     }
     .calculator__btn {
         text-align: center;
+        display: flex;
     }  
 }
 @media screen and (max-width: 410px) {
