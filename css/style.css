@@ -34,7 +34,8 @@ body {
 }
 .calculator__input {
     background-color: none;
-    border: 0;
+    border: none;
+    border-radius: 0;
     font-weight: 800;
     font-size: 40px;
     text-align: center;
@@ -118,6 +119,13 @@ body {
 @media screen and (max-width: 560px) {
     .calculator {
         width: 95%;
+    }
+    .calculator__top {
+        width: 100%;
+    }
+    .calculator__input {
+        width: 100%;
+        padding: 0;
     }
 }
 @media screen and (max-width: 410px) {
