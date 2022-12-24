@@ -86,10 +86,6 @@ body {
     border: none;
     transition: all 0.8s;   
 }
-.operation {
-    background-color: #978ac9; 
-    color: white;;
-}
 .calculator__btn:hover {
     background-color: #686ebf;
     color: white;
@@ -119,6 +115,7 @@ body {
 @media screen and (max-width: 560px) {
     .calculator {
         width: 95%;
+        height: auto;
     }
     .calculator__top {
         width: 100%;
@@ -141,12 +138,11 @@ body {
     .calculator__btn {
         width: 50px;
         height: 50px;
-        text-align: center;
         font-size: 20px;
     }
     .equally{
         width: 50px;
         font-size: 20px;
         height: 50px;
-    }  
+    }
 }
