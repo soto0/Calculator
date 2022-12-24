@@ -68,6 +68,8 @@ body {
     width: 70px;
     font-size: 25px;
     cursor: pointer;
+    padding: 0;
+    margin: 0;
     color: #a2a6db;
     height: 70px;
     border-radius: 50%;
